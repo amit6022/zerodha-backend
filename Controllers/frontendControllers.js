@@ -1,6 +1,6 @@
 const HoldingsModel = require("../Model/HoldingsModel.js");
-const PositionsModel = require("../model/PositionsModel");
-const OrdersModel = require("../model/OrdersModel");
+const PositionsModel = require("../Model/PositionsModel.js");
+const OrdersModel = require("../Model/OrdersModel.js");
 
 module.exports.holdings = async (req, res) => {
   let allHoldings = await HoldingsModel.find({});
